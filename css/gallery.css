@@ -1,0 +1,343 @@
+.main {
+  padding: 108px var(--SPcontentPadding) 0px;
+}
+
+.Gallery__content {
+  overflow: hidden;
+  background-color: var(--primary-white);
+  padding: 8px 20px;
+  border-radius: 25px;
+  margin-bottom: 24px;
+  transition: 0.5s ease;
+  max-height: 60px;
+  margin-top: 44px;
+}
+
+.Gallery__content.open {
+  max-height: 100%;
+  transition: 0.5s ease;
+  padding-bottom: 60px;
+}
+
+.Gallery__set {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Gallery__set--title {
+  color: var(--primary-orange);
+  font-family: "Tilt Warp";
+  font-size: 2.4rem;
+}
+
+.Gallery__set--btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid var(--primary-orange);
+  position: relative;
+  cursor: pointer;
+}
+
+.Gallery__set--btn-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 4px;
+  background-color: var(--primary-orange);
+  border-radius: 2px;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.Gallery__set--btn-line.vertical {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.Gallery__set--btn-line.horizontal {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.Gallery__set--btn.active .vertical {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.Works__select.PCselect {
+  display: none;
+}
+
+.Works__select--img {
+  width: 30px;
+  height: 30px;
+}
+
+.Works__select {
+  display: flex;
+  background-color: var(--primary-white);
+  margin-top: 32px;
+  padding: 8px 16px;
+  border-radius: 40px;
+  border: 2px solid var(--primary-orange);
+}
+
+.Works__card.is-hidden {
+  display: none;
+}
+
+.Gallery__content--imgset {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px 16px;
+  margin-top: 32px;
+}
+
+.Gallery__content--imgbox {
+  height: 120px;
+  width: 120px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Gallery__content--img {
+  object-fit: cover;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.Gallery__content--imgboxset:hover .Gallery__content--img {
+  height: 110%;
+  opacity: 60%;
+}
+
+.Gallery__content--imgboxset:hover .Gallery__content--title {
+  color: var(--primary-orange);
+  font-weight: 700;
+}
+
+.Works__categories {
+  color: var(--primary-orange);
+  font-family: "Tilt Warp";
+  font-size: 1.6rem;
+  text-align: center;
+  background-image: url(../images/down.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 90%;
+  outline: none;
+  cursor: pointer;
+}
+
+.Gallery__canseemore--section {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.Gallery__canseemore--fukidashi {
+  position: absolute;
+  width: 295px;
+  z-index: -100;
+  bottom: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Gallery__canseemore--fukidashi-img {
+  position: absolute;
+  right: 65px;
+  bottom: -20px;
+}
+
+.Gallery__canseemore--fukidashi-txt {
+  border-radius: 116px;
+  background: #c5e8ff;
+  padding: 30px 0;
+  width: 78%;
+  margin: 0 auto;
+  color: var(--primary-darkblue);
+  text-align: center;
+  font-family: "Noto Sans JP";
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 140%; /* 19.6px */
+}
+
+.Gallery__canseemore--img {
+  margin: 0 auto;
+  display: block;
+}
+
+.Gallery__content--title {
+  font-size: 1.2rem;
+  margin-top: 8px;
+  text-align: center;
+  letter-spacing: 5%;
+  transition: 0.5s;
+}
+
+.footer .footer__set {
+  padding-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .Works__select.SPselect {
+    display: none;
+  }
+
+  .Works__select.PCselect {
+    display: block;
+    width: fit-content;
+    white-space: nowrap;
+    padding: 8px 16px;
+    border-radius: 40px;
+    background: var(--primary-white);
+    margin-right: auto;
+  }
+
+  .Works__categories--item.active {
+    background-color: var(--primary-orange);
+    color: var(--primary-background);
+  }
+
+  .Gallery__content--imgset {
+    margin-top: 32px;
+    gap: 40px 40px;
+  }
+
+  .Gallery__content--imgbox {
+    height: 196px;
+    width: 100%;
+  }
+
+  .Gallery__content--imgboxset:hover .Gallery__content--img {
+    height: 100%;
+    opacity: 60%;
+  }
+
+  .Gallery__canseemore--section {
+    margin-top: 200px;
+  }
+
+  .Gallery__canseemore--fukidashi {
+    width: 350px;
+    bottom: 260px;
+  }
+
+  .Gallery__canseemore--fukidashi-txt {
+    border-radius: 116px;
+    padding: 30px 0;
+    width: 350px;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+
+  .Gallery__canseemore--fukidashi-img {
+    position: absolute;
+    right: 60px;
+  }
+
+  .Gallery__set--title {
+    font-size: 5rem;
+  }
+
+  .Gallery__content {
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin: 24px auto;
+    max-height: 84px;
+  }
+
+  .Gallery__canseemore--img {
+    width: 240px;
+  }
+
+  .Gallery__set--btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid var(--primary-orange);
+  }
+
+  .Gallery__set--btn-line {
+    width: 38px;
+    height: 4px;
+  }
+
+  .Works__categories {
+    display: flex;
+    background-image: none;
+    gap: 12px;
+  }
+
+  .Works__categories--item {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 1.8rem;
+  }
+
+  .Works__categories--item:hover {
+    background-color: var(--primary-orange);
+    color: var(--primary-background);
+  }
+} /* TA 992px */
+
+@media screen and (min-width: 1024px) {
+  .Gallery {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+  .Gallery__set--btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+  }
+
+  .Gallery__canseemore--fukidashi {
+    width: 400px;
+    bottom: 330px;
+  }
+
+  .Gallery__canseemore--fukidashi-txt {
+    padding: 40px auto;
+    font-size: 2.4rem;
+    width: 400px;
+  }
+
+  .Gallery__canseemore--fukidashi-img {
+    position: absolute;
+    right: 100px;
+  }
+
+  .Gallery__set--title {
+    font-size: 7rem;
+  }
+
+  .Gallery__content {
+    padding: 20px 40px;
+    margin: 40px auto;
+    max-height: 120px;
+  }
+
+  .Gallery__canseemore--img {
+    width: 296px;
+  }
+
+  .Works__select.PCselect {
+    padding: 12px 20px;
+  }
+
+  .Works__categories {
+    gap: 28px;
+  }
+
+  .Works__categories--item {
+    font-size: 2rem;
+  }
+}
