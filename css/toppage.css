@@ -442,6 +442,7 @@ main
   border-radius: 15px;
   aspect-ratio: 16 / 9;
   transition: 0.5s;
+  filter: grayscale(20%);
 }
 
 .Works__maincontain--img.leftcontent{
@@ -449,7 +450,7 @@ main
 }
 
 .Works__maincontain--img.rightcontent01{
-  background-image: url(../images/portflio/home_web.jpg);
+  background-image: url(../images/flyer/home_flyer.jpg);
 }
 
 .Works__maincontain--img.rightcontent02{
@@ -466,6 +467,7 @@ main
 
 .Works__maincontain--left:hover .Works__maincontain--img {
   background-size: 110%;
+  filter: grayscale(0%);
 }
 
 .Works__maincontain--left:hover .Works__maincontain--left-btn {
@@ -591,6 +593,7 @@ main
 
 .Works__maincontain--right01:hover .Works__maincontain--img {
   background-size: 110%;
+  filter: grayscale(0%);
 }
 
 .Works__maincontain--right-txtset {
@@ -692,6 +695,7 @@ main
 
 .Works__card--img {
   border-radius: 5px;
+  filter: grayscale(20%);
 }
 
 .card--pic-mask {
