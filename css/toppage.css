@@ -697,7 +697,6 @@ main
 
 .Works__card--img {
   border-radius: 5px;
-  filter: grayscale(20%);
 }
 
 .card--pic-mask {
