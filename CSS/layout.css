@@ -1,0 +1,53 @@
+.masonry {
+  column-count: 3;
+  column-gap: 20px;
+}
+.masonry-item {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  border: solid 1px white;
+  
+}
+.masonry-item:hover .masonry-hover {
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.masonry-hover {
+  display: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(237, 125, 19, 0.8);
+  color: #fff;
+}
+.masonry-body img {
+  width: 100%;
+  border-radius: 5px;
+  
+}
+.masonry-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+.masonry-footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #ddd;
+}
+@media (max-width: 1200px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 550px) {
+  .masonry {
+    column-count: 1;
+  }
+}

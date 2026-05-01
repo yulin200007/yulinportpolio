@@ -1,0 +1,816 @@
+@charset "utf-8";
+
+
+/* Worksinfo */
+.Worksinfo{
+    padding-top: 112px ;
+    padding-bottom:16px ;
+}
+
+.Worksinfo__content{
+    margin-top: 28px;
+}
+
+.Worksinfo__content--taglist{
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.Worksinfo__content--tag{
+    padding: 4px 8px;
+    background-color: var(--primary-orange);
+    color: var(--primary-white);
+    border-radius: 20px;
+    font-family: "Tilt Warp";
+    font-size: 1.4rem;
+}
+
+.Worksinfo__content--title{
+    font-family: "Noto Sans JP";
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.Worksinfo__content--subtitle{
+    color: var(--primary-darkblue);
+    font-family: "Noto Sans JP";
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.Worksinfo__content--txt{
+    font-family: "Noto Sans JP";
+    font-size: 1.4rem;
+}
+
+.Worksinfo__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+/* Worksinfo SP 375px */
+
+@media screen and (min-width:768px) {
+
+    .Worksinfo__content{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Worksinfo__content--img{
+        width: 45%;
+    }
+
+    .Worksinfo__content--info{
+        width: 47%;
+    }
+
+    .Worksinfo__content--taglist{
+        gap: 12px;
+        margin-top: 0px;
+    }
+
+    .Worksinfo__content--tag{
+        padding: 8px 10px;
+        border-radius: 20px;
+        font-size: 1.6rem;
+    }
+
+    .Worksinfo__content--title{
+        font-size: 2.4rem;
+    }
+
+    .Worksinfo__content--subtitle{
+        margin-top: 8px;
+    }
+
+    .Worksinfo__btn{
+        justify-content: right;
+        margin-top: 24px;
+    }
+
+}/* Worksinfo TA 768px */
+
+@media screen and (min-width:1024px) {
+
+    .Worksinfo{
+        padding-bottom:48px ;
+    }
+
+    .Worksinfo__content{
+        margin-top: 42px;
+
+    }
+
+    .Worksinfo__content--img{
+        width: 48%;
+    }
+
+    .Worksinfo__content--info{
+        width: 45%;
+    }
+
+    .Worksinfo__content--tag{
+        font-size: 1.8rem;
+    }
+
+    .Worksinfo__content--title{
+        font-size: 2.8rem;
+    }
+
+    .Worksinfo__content--subtitle{
+        margin-top: 8px;
+        font-size: 2rem;
+    }
+
+    .Worksinfo__btn{
+        justify-content: right;
+        margin-top: 28px;
+    }
+
+    .Worksinfo__content--txt{
+        font-size: 1.6rem;
+    }
+
+}/* Worksinfo PC 1024px */
+
+/* Workspic */
+
+.Workspic{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/nabemeguri/SPnabemeguri.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Worksinfo SP 375px */
+
+@media screen and (min-width:768px) {
+    .Workspic{
+        background-image: url(../images/nabemeguri/TAnabemeguri.jpg);
+    }
+
+
+}/* Worksinfo TA 768px */
+
+@media screen and (min-width:1024px) {
+    .Workspic{
+        background-image: url(../images/nabemeguri/PCnabemeguri.jpg);
+    }
+
+
+}/* Worksinfo PC 1024px */
+
+/* Worksdirections */
+
+.Worksdirections{
+    background-color: var(--primary-yellow);
+    padding: 40px 10% 8px;
+}
+
+.Worksdirections__item{
+    padding: 24px 46px;
+    border-radius: 20px;
+    background: #FFFAF1;
+    margin-bottom: 32px;
+}
+
+.Worksdirections__item--title{
+    color: var(--primary-orange);
+    text-align: center;
+    font-family: "Noto Sans JP";
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+    border-bottom: 2px solid var(--primary-orange);
+    height: 30px;
+}
+
+.Worksdirections__item--txt{
+    font-size: 1.4rem;
+    font-family: "Noto Sans JP";
+    line-height: 160%; /* 22.4px */
+    margin-top: 12px;
+}
+
+.Worksdirections__item--skillset{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.skillset-item-img{
+    display: block;
+    margin: 0 auto;
+}
+
+.skillset-item-txt{
+    color: var(--primary-darkblue);
+    text-align: center;
+    font-family: "Noto Sans JP";
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 140%; /* 19.6px */
+}
+
+@media screen and (min-width:768px) {
+
+    .Worksdirections{
+        padding: 80px 10% ;
+    }
+
+    .Worksdirections__item{
+        padding: 24px 28px;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .Worksdirections__item--title{
+        line-height: 120%; /* 21.6px */
+        border-bottom: none;
+       
+        height: auto;
+        width: 112px;
+        
+    }
+
+    .Worksdirections__content{
+        width: 606px;
+    }
+
+
+
+    .Worksdirections__item--line{
+        width: 2px;
+        min-height: 60px;
+        background-color: var(--primary-orange);
+        margin: 0 20px;
+    }
+
+    .skillset-item-txt{
+        font-size: 1.6rem;
+    }
+
+
+    
+}/* Worksdirections TA 768px */
+
+@media screen and (min-width:1024px) {
+     .Worksdirections__item{
+        padding: 24px 32px;
+    }
+
+    .Worksdirections__item--title{
+        width: 120px;
+        
+    }
+
+    .Worksdirections__content{
+        width: 606px;
+        margin-left: 20px;
+    }
+
+    .Worksdirections__item--skillset{
+        margin-left: 20px;
+
+    }
+
+    .Worksdirections__item--line{
+        margin: 0 56px;
+    }
+
+    .skillset-item-txt{
+        font-size: 1.8rem;
+    }
+
+
+}/* Worksinfo PC 1024px */
+
+/* Worksdesign */
+
+.Worksdesign{
+    padding-top: 32px;
+
+}
+
+.Worksdesign__logodirections--img{
+    height: 188px;
+    border-radius: 15px;
+    border: 2px solid var(--primary-orange);
+    background:  #FFFAF1;
+    background-image: url(../images/nabemeguri/logo.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Worksdesign__logodirections--info{
+    margin-top: 32px;
+}
+
+.Worksdesign__logodirections--info-colorset{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 36px;
+}
+
+.colorset-item{
+    display: flex;
+    align-items: center;
+}
+
+.colorset-item-txt{
+    font-family: "Noto Sans JP";
+    font-size: 1.4rem;
+}
+
+.colorset-item-color{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    
+    
+}
+
+.redcolor{
+    background-color:#EA5850;
+}
+
+.blackcolor{
+    background-color:#231815;;
+}
+
+
+.Worksdesign__logodirections--info-title{
+    border-radius: 30px;
+    border: 2px solid var(--primary-orange);
+    background: var(--primary-orange);
+    padding: 8px 16px;
+    color: #FFF;
+    font-family: "Noto Sans JP";
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 140%; /* 25.2px */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.Worksdesign__logodirections--info-txt{
+    margin-top: 20px;
+    font-family: "Noto Sans JP";
+    font-size: 1.4rem;
+    line-height: 130%; /* 18.2px */
+}
+
+.Worksdesign__spaceline{
+    height: 2px;
+    background-color: var(--primary-orange);
+    margin: 60px auto;
+}
+
+.Worksdesign__webdirections--title{
+    border-radius: 30px;
+    border: 2px solid var(--primary-orange);
+    background: var(--primary-orange);
+    padding: 8px 16px;
+    color: #FFF;
+    font-family: "Noto Sans JP";
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 140%; /* 25.2px */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.Worksdesign__webdirections--imgset-img{
+    border: 1px solid var(--primary-orange);
+    margin-top: 32px;
+}
+
+.skillset-item-img{
+    margin-bottom: 8px;
+}
+
+.bannerdirections--item{
+    margin: auto 10px;
+}
+
+.bannerdirections--list-img{
+    border-radius: 5px;
+    border: 10px solid var(--primary-white);
+}
+
+.Worksdesign__bannerdirections--list{
+    margin-top: 40px;
+}
+
+.bannerdirections--list-txt{
+    text-align: center;
+    font-family: "Noto Sans JP";
+    font-size: 1.4rem;
+    margin-top: 32px;
+}
+
+.Worksdesign__bannerdirections--change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.Worksdesign__bannerdirections--change-img{
+    width: 48px;
+    height: 48px;
+}
+
+.Worksdesign__bannerdirections--change-dot{
+    width: 16px;
+    height: 16px;
+    background-color: var(--primary-white);
+    border: 1px solid var(--primary-orange);
+    border-radius: 8px;
+}
+
+.change-dotset{
+    display: flex;
+    gap: 8px;
+}
+/* Worksdesign SP375px */
+
+
+@media screen and (min-width:768px) {
+    .Worksdesign{
+        padding-top: 100px;
+
+    }
+
+    .Worksdesign__logodirections--img{
+        height: 240px;
+        width: 47%;
+        background-size: 80%;
+
+    }
+
+    .Worksdesign__logodirections{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Worksdesign__logodirections--info{
+        margin-top: 32px;
+        width: 47%;
+
+    }
+
+    .Worksdesign__logodirections--info-title{
+        font-size: 2rem;
+        width: 45%;
+        margin: auto auto 0 0;
+        text-align: center;
+    }
+
+    .Worksdesign__logodirections--info-colorset{
+        justify-content: left;
+    }
+
+    .Worksdesign__webdirections--title{
+        font-size:2rem;
+        width: 30%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .Worksdesign__webdirections--imgset{
+        display: flex;
+        gap: 24px;
+        align-items: flex-start;
+    }
+
+    .Worksdesign__webdirections--imgset-img.PCimg{
+        width: 260px;
+    }
+
+    .Worksdesign__webdirections--imgset-img.SPimg{
+        width: 23%;
+        height: 100%;
+    }
+
+    .bannerdirections--item{
+        margin: auto 142px;
+    }
+
+    .Worksdesign__bannerdirections--change{
+        gap: 18px;
+        margin-top: 40px;
+    }
+
+    .Worksdesign__bannerdirections--change-img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .Worksdesign__logodirections--info-txt{
+        margin-top: 40px;
+    }
+
+
+    
+}/* Worksdesign TA 768px */
+
+@media screen and (min-width:1024px) {
+     .Worksdesign__logodirections--img{
+        height: 368px;
+        width: 53%;
+        background-size: 80%;
+
+    }
+
+    .Worksdesign__logodirections{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Worksdesign__logodirections--info{
+        margin-top: auto;
+        width: 37%;
+
+    }
+
+    .Worksdesign__logodirections--info-title{
+        font-size: 2rem;
+        width: 50%;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .Worksdesign__logodirections--info-txt{
+        font-size: 1.6rem;
+    }
+
+    .Worksdesign__webdirections--imgset{
+        gap: 32px;
+        margin-bottom: 32px;
+    }
+
+    .Worksdesign__webdirections--imgset-img.PCimg{
+        width: 320px;
+    }
+
+    .bannerdirections--item{
+        margin: auto 188px;
+    }
+
+    .Worksdesign__bannerdirections--list{
+        margin-top: 60px;
+    }
+
+    .bannerdirections--list-txt{
+        font-size: 1.6rem;
+    }
+
+}/* Worksdesign PC 1024px */
+
+/* otder works */
+
+.otherworks{
+    padding-top: 20px;
+    position: relative;
+}
+
+.otherworks__change--img{
+    position: absolute;
+    bottom: 245px;
+    width: 40px;
+    height: 40px;
+}
+
+.otherworks__change--img.before{
+    left: 8px;
+}
+
+.otherworks__change--img.next{
+    right: 8px;
+}
+
+
+.otherworks__card{
+    margin-bottom: 28px;
+    cursor: pointer;
+    margin:auto 30px;
+}
+
+.otherworks__card--info-top{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.otherworks__card--info-title{
+    font-family: "Noto Sans JP";
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.otherworks__card--info-gust{
+    color: var(--primary-white);
+    text-align: center;
+    /* SubTitle 12px 140 */
+    font-family: "Noto Sans JP";
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 8px 10px;
+    border-radius: 20px;
+    background: var(--primary-orange);
+}
+
+.otherworks__card--info-center{
+    font-family: "Noto Sans JP";
+    font-size: 1.4rem;
+    margin-top: 12px;
+}
+
+.otherworks__card--info-buttom{
+    color: var(--primary-orange);
+    font-family: "Noto Sans JP";
+    font-size: 1rem;
+    border-top: 1px solid var(--primary-orange);
+    margin-top: 8px;
+}
+
+.otherworks__card--pic{
+    position: relative;
+    
+
+    &:hover{
+        .otherworks__card--pic-mask{
+            display: block;
+        }
+    }
+}
+
+.otherworks__card--img{
+    border-radius: 15px;
+    
+}
+
+.otherworks__card--pic-mask{
+    background-color: rgba(127, 61, 14, 0.60);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding-top: 25px;
+    display: none;
+
+}
+
+.otherworks__card--pic-maskseemore-txt{
+    font-size: 24px;
+    color: var(--primary-white);
+    font-family: "Tilt Warp";
+    text-align: center;
+}
+
+.otherworks__card--pic-maskseemore{
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/loadcircle.svg);
+    background-size: cover;
+    background-position: center;
+    margin: 4px auto 0;
+    padding-top: 30px;
+}
+
+.otherworks__card--pic-maskseemore-center{
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+
+.otherworks__list{
+    margin-top: 24px;
+}
+
+.otherworks__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px auto;
+}
+
+.otherworks__card--pic-mask .otherworks__card--pic-maskseemore-center{
+    animation: maskseemore 0.3s linear 1 forwards;
+}
+
+@keyframes maskseemore{
+    from {
+    transform: rotate(0deg);
+  }
+  
+
+  to {
+   
+    transform: rotate(90deg);
+  }
+}
+
+@media screen and (min-width:768px) {
+    .otherworks{
+        padding-top: 82px;
+    }
+
+    .otherworks__change--img{
+        bottom: 245px;
+        width: 52px;
+        height: 52px;
+    }
+
+    .otherworks__change--img.before{
+        left: 34px;
+    }
+
+    .otherworks__change--img.next{
+        right: 34px;
+    }
+
+    .otherworks__card{
+        margin:auto 20px;
+    }
+
+    .otherworks__card--info-top{
+        gap: 4px;
+    }
+
+    .otherworks__card--info-gust{
+        padding: 4px;
+        font-size: 1rem;
+    }
+
+
+    .otherworks__card--info-buttom{
+        margin-top: 16px;
+    }
+
+
+    .otherworks__card--pic-mask{
+        padding-top: 16px;
+
+    }
+
+
+    .otherworks__list{
+        margin-top: 26px;
+    }
+
+    .otherworks__btn{
+        justify-content: end;
+        margin: 28px auto;
+    }
+
+    .otherworks__card--img{
+        height: 168px;
+    
+    }
+
+
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .otherworks__change--img{
+        bottom: 260px;
+        width: 74px;
+        height: 74px;
+    }
+
+    .otherworks__card--info-top{
+        gap: 8px;
+    }
+
+
+    .otherworks__card--pic-mask{
+        padding-top: 36px;
+
+    }
+
+    .otherworks__card--img{
+        height: 206px;
+    
+    }
+}

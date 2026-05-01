@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+ .Lightbox{
+        height: 100vh;
+        background-color:rgba(74, 59, 48, 0.50);
+
+        /* 添加 Flexbox 屬性 */
+        display: flex; /* 啟用 Flexbox */
+        justify-content: center; /* 水平置中 */
+        align-items: center; /* 垂直置中 */
+        
+        /* 確保 Lightbox 本身是固定定位並覆蓋整個視窗，這樣它才能在頁面上方彈出 */
+        position: fixed; /* 固定在視窗上 */
+        top: 0;
+        left: 0;
+        width: 100vw; /* 確保寬度佔滿整個視窗 */
+        z-index: 999; /* 確保它在其他內容之上，您可以根據需要調整 */
+    }
+
+    .content__box{
+    width: 80%;
+    border-radius: 25px;
+    background: var(--primary-white);
+    position: relative;
+    padding: 40px 20px 20px;
+    
+    
+    }
+
+.content__close{
+    height: 60px;
+    width: 35px;
+    position: absolute;
+    background-color: var(--primary-orange);
+    right: -35px;
+    border-radius:  0 30px 30px 0;
+    top: 40px;
+    padding-top: 18px;
+    cursor: pointer;
+}
+
+.content__close--img{
+    margin: auto;
+    width: 20px;
+    display: block;
+}
+
+.content__box--img{
+    height: 200px;
+    background-image: url(../images/illsut/p11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.content__box--txt{
+    font-size: 1.4rem;
+    margin-top: 12px;
+}
+
+.content__box--btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+@media screen and (min-width:768px) {
+    .content__box--img{
+        height: 400px;
+    }
+
+    .content__box{
+        padding: 50px 70px 20px;
+    }
+
+    .content__close{
+        height: 88px;
+        width: 70px;
+        right: -70px;
+        border-radius:  0 44px 44px 0;
+        top: 60px;
+        padding-top: 25px;
+    }
+
+    .content__close--img{
+        margin: auto;
+        width: 20px;
+        display: block;
+    }
+
+        .content__close--img{
+        width: auto;
+    }
+
+    .content__box--txt{
+        font-size: 1.6rem;
+    }
+}
+
+
+
+@media screen and (min-width:1024px) {
+    
+
+    .content__box{
+    width: 66%;
+    padding: 40px 98px 25px;
+    }
+
+.content__close{
+    height: 88px;
+    width: 70px;
+    right: -70px;
+    border-radius:  0 44px 44px 0;
+    top: 60px;
+    padding-top: 25px;
+}
+
+.content__close--img{
+    margin: auto;
+    display: block;
+}
+
+.content__box--img{
+    height: 444px;
+}
+
+.content__box--btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+
+}
