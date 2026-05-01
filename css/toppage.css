@@ -436,13 +436,24 @@ main
 
 .Works__maincontain--img {
   width: 100%;
-  background-image: url(../images/portflio/topblock.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 15px;
   aspect-ratio: 16 / 9;
   transition: 0.5s;
+}
+
+.Works__maincontain--img.leftcontent{
+  background-image: url(../images/portflio/home_web.jpg);
+}
+
+.Works__maincontain--img.rightcontent01{
+  background-image: url(../images/portflio/home_web.jpg);
+}
+
+.Works__maincontain--img.rightcontent02{
+  background-image: url(../images/banner/home_banner.jpg);
 }
 
 .Works__maincontain--left:hover {
