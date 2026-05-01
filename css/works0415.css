@@ -61,6 +61,10 @@
 }
 
 .worksimg.snow-pic2 {
+  background-image: url(../images/snowstorge/snowstorage_02.jpg);
+}
+
+.worksimg.snow-pic3 {
   background-image: url(../images/snowstorge/P4JQCG1.jpg);
 }
 
@@ -69,7 +73,7 @@
 }
 
 .worksimg.panda-pic2 {
-  background-image: url(../images/pandaruman/pandarumanchirashi.jpg);
+  background-image: url(../images/pandaruman/pandaruman_02i.jpg);
 }
 
 .worksimg.panda-pic3 {
@@ -81,11 +85,15 @@
 }
 
 .worksimg.porfile-pic2 {
-  background-image: url(../images/portflio/cardportflio.jpg);
+  background-image: url(../images/portflio/portflio_01.jpg);
 }
 
 .worksimg.sugutabe-pic1 {
   background-image: url(../images/sugutabe/cardsugutabe.jpg);
+}
+
+.worksimg.sugutabe-pic2 {
+  background-image: url(../images/sugutabe/cardsugutabe_01.jpg);
 }
 
 .worksimg.furano-pic1 {
@@ -97,6 +105,10 @@
 
 .worksimg.hcas-pic1 {
   background-image: url(../images/hcas/cardhcas.jpg);
+}
+
+.worksimg.hcas-pic1 {
+  background-image: url(../images/hcas/hcas_01.jpg);
 }
 
 .worksimg.ksing-pic1 {
