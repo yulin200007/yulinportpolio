@@ -15,8 +15,7 @@
 }
 
 .Worksinfo__img {
-  max-height: 312px;
-  height: 65vh;
+  height: 312px;
   border-radius: 5px;
 }
 
@@ -204,7 +203,7 @@
   }
 
   .Worksinfo__img {
-    max-height: 800px;
+    height: 800px;
     max-width: 1200px;
     width: 100%;
   }
