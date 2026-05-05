@@ -169,12 +169,12 @@
   background-color: var(--primary-orange);
   color: var(--primary-white);
   border-radius: 20px;
-  font-family: 'Tilt Warp';
+  font-family: var(--enfont);
   font-size: 1.4rem;
 }
 
 .Worksinfo__content--title {
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   font-size: 2rem;
   font-weight: 700;
   margin-top: 20px;
@@ -182,7 +182,7 @@
 
 .Worksinfo__content--subtitle {
   color: var(--primary-darkblue);
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   font-size: 1.8rem;
   font-weight: 700;
   margin-top: 28px;
@@ -190,7 +190,7 @@
 
 .Worksinfo__content--txt {
   margin-top: 4px;
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   font-size: 1.4rem;
 }
 
@@ -335,7 +335,7 @@
 
 .Worksdirections__item--title {
   color: var(--primary-orange);
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 120%; /* 21.6px */
@@ -344,7 +344,7 @@
 
 .Worksdirections__item--txt {
   font-size: 1.4rem;
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   line-height: 200%; /* 22.4px */
   letter-spacing: 10%;
 }
@@ -363,7 +363,7 @@
 .skillset-item-txt {
   color: var(--primary-darkblue);
   text-align: center;
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 140%; /* 19.6px */
@@ -482,7 +482,7 @@
 
 .Worksdesign__webdirections--title {
   color: var(--primary-orange);
-  font-family: 'Tilt Warp';
+  font-family:var(--enfont);
   font-size: 3.2rem;
   text-align: center;
 }
@@ -591,7 +591,7 @@
 }
 
 .colorset-item-txt {
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   font-size: 1.4rem;
 }
 
@@ -633,7 +633,7 @@
   background: var(--primary-orange);
   padding: 8px 16px;
   color: #fff;
-  font-family: 'Noto Sans JP';
+  font-family: var(--jpfont);
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 140%;
@@ -644,7 +644,7 @@
 
 .Worksdesign__logodirections--info-txt {
   margin-top: 20px;
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   font-size: 1.4rem;
   line-height: 200%;
   letter-spacing: 10%;
@@ -690,7 +690,7 @@
 }
 
 .bannerdirections--list-txt {
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   font-size: 1.4rem;
   margin-top: 32px;
   line-height: 200%;
@@ -1010,7 +1010,7 @@
 }
 
 .otherworks__card--info-title {
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   font-size: 1.6rem;
   font-weight: 700;
 }
@@ -1020,7 +1020,7 @@
   color: var(--primary-white);
   text-align: center;
   /* SubTitle 12px 140 */
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   font-size: 0.8rem;
   font-weight: 700;
   padding: 8px 10px;
@@ -1030,14 +1030,14 @@
 }
 
 .otherworks__card--info-center {
-  font-family: 'Noto Sans JP';
+  font-family: var(--jpfont);
   font-size: 1.4rem;
   margin-top: 12px;
 }
 
 .otherworks__card--info-buttom {
   color: var(--primary-orange);
-  font-family: 'Noto Sans JP';
+  font-family:var(--jpfont);
   font-size: 1.4rem;
   border-top: 1px solid var(--primary-orange);
   margin-top: 8px;
@@ -1074,7 +1074,7 @@
 .otherworks__card--pic-maskseemore-txt {
   font-size: 24px;
   color: var(--primary-white);
-  font-family: 'Tilt Warp';
+  font-family:var(--enfont);
   text-align: center;
 }
 
