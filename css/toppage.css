@@ -154,6 +154,7 @@ main
 .top__bottom--color {
   height: 100%;
   background-color: var(--primary-blue);
+  background-size: cover;
   border-radius: 50px 50px 0 0;
 }
 
@@ -230,14 +231,17 @@ main
   .top__me {
     width: 30%;
   }
+
+  .top__bottom--color {
+    border-radius: 100px 100px 0 0;
+  }
 }
 /*nav PC 1024px */
 
 /* about */
 .about {
-  background-image: url(../images/about\ SP375.png);
-  background-size: cover;
   padding: 84px var(--SPcontentPadding) 70px;
+  background-color: var(--primary-blue);
 }
 
 .about__img {
@@ -266,8 +270,8 @@ main
 .about__info--txt {
   font-family: "Noto Sans JP";
   font-size: 1.4rem;
-  font-weight: 500;
   margin-top: 20px;
+  line-height: 180%;
 }
 
 .about__info--skill {
@@ -315,7 +319,6 @@ main
 
 @media screen and (min-width: 768px) {
   .about {
-    background-image: url(../images/about\ TA992.png);
     padding: 40px var(--SPcontentPadding) 58px;
   }
 
@@ -378,7 +381,6 @@ main
 
 @media screen and (min-width: 1024px) {
   .about {
-    background-image: url(../images/about\ PC1440.png);
     padding: 80px var(--PCcontentPadding) 32px;
   }
 

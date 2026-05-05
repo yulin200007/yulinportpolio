@@ -33,6 +33,7 @@
   background-repeat: no-repeat;
   position: relative;
   animation: zoom-in 10s linear 0s 1 normal both;
+  background-size: cover;
 }
 
 @keyframes zoom-in {
@@ -52,7 +53,6 @@
 
 .worksimg.pic2 {
   background-image: url(../images/nabemeguri/PCnabemeguri.jpg);
-  background-size: cover;
 }
 
 .worksimg.snow-pic1 {
@@ -106,8 +106,12 @@
   background-image: url(../images/hcas/cardhcas.jpg);
 }
 
-.worksimg.hcas-pic1 {
+.worksimg.hcas-pic2 {
   background-image: url(../images/hcas/hcas_01.jpg);
+}
+
+.worksimg.hcas-pic3 {
+  background-image: url(../images/hcas/hcas_02.jpg);
 }
 
 .worksimg.ksing-pic1 {
@@ -122,6 +126,10 @@
 }
 
 .worksimg.raven-pic1 {
+  background-image: url(../images/reven/ravencard.jpg);
+}
+
+.worksimg.raven-pic2 {
   background-image: url(../images/reven/スマホmod.jpg);
 }
 
@@ -902,6 +910,7 @@
   .Worksdesign__webdirections--pic {
     max-width: 700px;
     width: 100%;
+    margin-bottom: 100px;
   }
 } /* Worksdesign TA 768px */
 

@@ -6,8 +6,7 @@ main
 
 /* about */
 .about {
-  background-image: url(../images/about\ SP375.png);
-  background-size: cover;
+  background-color: var(--primary-blue);
   background-position: top;
   padding: 100px var(--SPcontentPadding) 70px;
 }
@@ -92,7 +91,6 @@ main
 
 @media screen and (min-width: 768px) {
   .about {
-    background-image: url(../images/about\ TA992.png);
     padding-top: 112px;
     padding-bottom: 60px;
   }
@@ -155,7 +153,6 @@ main
 
 @media screen and (min-width: 1024px) {
   .about {
-    background-image: url(../images/about\ PC1440.png);
     padding-top: 80px;
     padding-bottom: 120px;
   }
