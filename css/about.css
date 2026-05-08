@@ -48,7 +48,7 @@ main
 .about__lang--title {
   color: var(--primary-darkblue);
   text-align: center;
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 2rem;
   font-weight: 700;
 }
@@ -56,7 +56,7 @@ main
 .about__lang--txt {
   color: var(--primary-darkblue);
   text-align: center;
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 1.2rem;
   font-weight: 700;
 }
@@ -68,14 +68,14 @@ main
 .about__info--name {
   color: var(--primary-darkblue);
   text-align: center;
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 2.8rem;
   font-weight: 700;
   line-height: 120%;
 }
 
 .about__info--txt {
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 140%;
@@ -239,7 +239,7 @@ main
 .skills__list--title {
   color: var(--primary-darkblue);
   text-align: center;
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 140%; /* 33.6px */
@@ -248,7 +248,7 @@ main
 }
 
 .skills__list--txt {
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 1.4rem;
   line-height: 140%; /* 16.8px */
   margin-top: 12px;
@@ -268,7 +268,7 @@ main
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 140%; /* 16.8px */
@@ -387,7 +387,7 @@ main
 }
 
 .container_line--title {
-  font-family: "Tilt Warp";
+  font-family:var(--enfont);
   font-size: 3.6rem;
   margin-bottom: 8px;
 }
@@ -447,13 +447,13 @@ main
 
 .timeline--item-date {
   color: var(--primary-orange);
-  font-family: "Tilt Warp";
+  font-family:var(--enfont);
   font-size: 1.2rem;
 }
 
 .timeline--item-title {
   color: var(--primary-darkblue);
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 1.6rem;
   font-weight: 700;
   margin-top: 4px;
@@ -461,7 +461,7 @@ main
 
 .timeline--item-subtitle {
   color: var(--primary-darkblue);
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 1.2rem;
   font-weight: 700;
   height: 25px;
@@ -469,7 +469,7 @@ main
 }
 
 .timeline--item-txt {
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 1.2rem;
   margin-top: 8px;
 }
@@ -612,7 +612,7 @@ main
 
 .interest__content--title {
   color: var(--primary-orange);
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 140%; /* 22.4px */
@@ -626,7 +626,7 @@ main
 }
 
 .interest__content--txt {
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 14px;
   margin-left: 20px;
 }
@@ -660,7 +660,7 @@ main
   }
 
   .interest__content--txt {
-    font-family: "Noto Sans JP";
+    font-family:var(--jpfont);
     font-size: 14px;
     margin-left: 20px;
   }
