@@ -44,15 +44,17 @@
     <link rel="stylesheet" href="css/destyle.css" />
     <link rel="stylesheet" href="css/works0415.css" />
     <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/layout.css" />
 
     <!-- slick -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
 
-     <!-- lightbox -->
-     <link href="./lightbox2-dev/dist/css/lightbox.css" rel="stylesheet" />
+    <!-- swiper -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
   </head>
 
   <body>
@@ -114,100 +116,148 @@
     </header>
     <main class="main">
 
-      <div class="bannerset">
 
-        <div class="bannersection">
+      <div class="Worksinfo__content">
+        <div class="Worksinfo__content--sectionset">
+        <div class="maintitle">
+                  <h1 class="maintitle__top">WORKS</h1>
+                  <div class="maintitle__bottom">
+                      <p class="maintitle__bottom--txt">自主制作</p>
+                      <img class="maintitle__bottom--img" src="images/fukidashi.svg" alt="">
+                  </div>
+        </div>
 
-          <div class="maintitle">
-            <h1 class="maintitle__top">FLYERS DESIGN</h1>
-            <div class="maintitle__bottom">
-              <p class="maintitle__bottom--txt">チラシデザインを集めます</p>
-              <img class="maintitle__bottom--img" src="images/fukidashi.svg" alt="">
-            </div>
+
+        <div class="Worksinfo__content--info">
+            <ul class="Worksinfo__content--taglist">
+                <li class="Worksinfo__content--tag">Illustration</li>
+            </ul>
+            <h2 class="Worksinfo__content--title">フリーランス講座ポスト</h2>
+
+            <div class="Worksinfo__content--section">
+
+                <div class="Worksinfo__content--section-set">
+
+                  <div class="Worksinfo__content--set">
+                    <h3 class="Worksinfo__content--subtitle">クライアント</h3>
+                    <p class="Worksinfo__content--txt">X Lab</p>
+                  </div>
+
+                  
+                  <div class="Worksinfo__content--set">
+                    <h3 class="Worksinfo__content--subtitle">ツール</h3>
+                    <p class="Worksinfo__content--txt">
+                      Illustrator
+                    </p>
+                  </div>
+
+                  <div class="Worksinfo__content--set">
+                    <h3 class="Worksinfo__content--subtitle">作業期間</h3>
+                    <p class="Worksinfo__content--txt">
+                      デザイン:2日間
+                    </p>
+                  </div>
+
+                </div>
+
+                <div class="Worksinfo__btnspace">
+                </div>
+
+             </div>
           </div>
 
+        </div>
 
-          <div class="Worksdesign__bannerdirections fadeIn">
+      </div>
 
-
-            <div class="Worksdesign__webdirections--bannerset">
-
-              <div class="masonry">
-                <div class="masonry-item">
-                  <a href="./images/flyer/flyer_01.jpg" data-lightbox="image-set">
-                    <div class="masonry-body">
-                      <img src="./images/flyer/flyer_01.jpg">
-                    </div>
-                  </a>
-                </div>
-
-                <div class="masonry-item">
-                  <a href="./images/flyer/flyer_01.jpg" data-lightbox="image-set">
-                    <div class="masonry-body">
-                      <img src="./images/flyer/flyer_02.jpg">
-                    </div>
-                  </a>
-                </div>
-
-                <div class="masonry-item">
-                  <a href="./images/flyer/flyer_03.jpg" data-lightbox="image-set">
-                    <div class="masonry-body">
-                      <img src="./images/flyer/flyer_03.jpg">
-                    </div>
-                  </a>
-                </div>
-
-                <div class="masonry-item">
-                  <a href="./images/flyer/flyer_04.jpg" data-lightbox="image-set">
-                    <div class="masonry-body">
-                      <img src="./images/flyer/flyer_04.jpg">
-                    </div>
-                  </a>
-                </div>
-
-                <div class="masonry-item">
-                  <a href="./images/flyer/flyer_05.jpg" data-lightbox="image-set">
-                    <div class="masonry-body">
-                      <img src="./images/flyer/flyer_05.jpg">
-                    </div>
-                  </a>
-                </div>
-
-                <div class="masonry-item">
-                  <a href="./images/flyer/flyer_06.jpg" data-lightbox="image-set">
-                    <div class="masonry-body">
-                      <img src="./images/flyer/flyer_06.jpg">
-                    </div>
-                  </a>
-                </div>
-
-                <div class="masonry-item">
-                  <a href="./images/flyer/flyer_07.jpg" data-lightbox="image-set">
-                    <div class="masonry-body">
-                      <img src="./images/flyer/flyer_07.jpg">
-                    </div>
-                  </a>
-                </div>
-
-
-
-                <div class="masonry-item" >
-                  <a href="./images/flyer/flyer_08.jpg" data-lightbox="image-set">
-                    <div class="masonry-body">
-                      <img src="./images/flyer/flyer_08.jpg">
-                    </div>
-                  </a>
-                </div>
-
-              </div>
-
-            </div>
-
-
+          <!-- Swiper -->
+        <div class="Worksinfo__img swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide worksimg asid-pic1"></div>
+            <div class="swiper-slide worksimg asid-pic2"></div>
+            <div class="swiper-slide worksimg asid-pic3"></div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
 
 
 
+      <section class="Worksdirections">
+        <div class="Worksdirections__item fadeIn">
+          <h4 class="Worksdirections__item--title">概要</h4>
+          <div class="Worksdirections__content">
+            <p class="Worksdirections__item--txt">
+              「デザインフリーランスの始め方から、安定した収入を得るまで」をテーマとした講座の、SNS用宣伝ビジュアルです。激変するテクノロジー環境において、単にツールを使いこなすだけでなく、効率的な手法で成果を最大化する重要性を視覚的に表現しました。
+            </p>
+          </div>
+        </div>
+
+        <div class="Worksdirections__item fadeIn">
+          <h4 class="Worksdirections__item--title">ターゲット</h4>
+          <div class="Worksdirections__content">
+            <p class="Worksdirections__item--txt">
+              デザイナー、クリエイター、フリーランス（またはそれを目指す人）
+            </p>
+          </div>
+        </div>
+
+        <div class="Worksdirections__item fadeIn">
+          <h4 class="Worksdirections__item--title">目的</h4>
+          <div class="Worksdirections__content">
+            <p class="Worksdirections__item--txt">
+              専門的かつ力強いビジュアルによる、講座価値のアピール。講座への信頼感の醸成と、参加申し込みの促進。
+            </p>
+          </div>
+        </div>
+
+        <div class="Worksdirections__item fadeIn">
+          <h4 class="Worksdirections__item--title">デザイン</h4>
+          <div class="Worksdirections__content">
+            <p class="Worksdirections__item--txt">
+              テクノロジーの進化とスピード感を象徴する、近未来的なビジュアルデザインを採用。ツールに「使われる」のではなく、ツールを「効率的に使いこなす」ことで、フリーランスとしての成功を掴み（つかみ）取るという、講座の核心を視覚的に伝えています。
+            </p>
+          </div>
+        </div>
+
+        <div class="Worksdirections__item fadeIn">
+          <h4 class="Worksdirections__item--title">制作範囲</h4>
+          <ul class="Worksdirections__item--skillset">
+            <li class="Worksdirections__item--skillset-item">
+              <img
+                class="skillset-item-img"
+                src="images/works-design.svg"
+                alt=""
+              />
+              <p class="skillset-item-txt">デザイン</p>
+            </li>
+
+            <li class="Worksdirections__item--skillset-item">
+              <img
+                class="skillset-item-img"
+                src="images/works-design.svg"
+                alt=""
+              />
+              <p class="skillset-item-txt">イラスト</p>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+
+    </div>
+
+      <div class="Worksdesign__bannerdirections fadeIn">
+        <div class="Worksdesign__webdirections--titleset fadeIn">
+          <h3 class="Worksdesign__webdirections--title">Graphic</h3>
+          <img class="Worksdesign__webdirections--titleline"
+            src="./images/titleline-banner.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="Worksdesign__webdirections--picset">
+          <img class="Worksdesign__webdirections--pic" src="./images/AcidMucus/cardacidmucus.jpg" alt="">
         </div>
 
       </div>
@@ -659,5 +709,5 @@
   <script src="slick/slick.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <script src="JS/main.js"></script>
-  <script src="./lightbox2-dev/dist/js/lightbox.min.js"></script>
+  <script src="JS/swiper.js"></script>
 </html>
