@@ -21,7 +21,7 @@
 
 .Works__categories {
   color: var(--primary-orange);
-  font-family: "Tilt Warp";
+  font-family:var(--enfont);
   font-size: 1.6rem;
   text-align: center;
   background-image: url(../images/down.svg);
@@ -65,7 +65,7 @@
   margin: 0 auto;
   color: var(--primary-darkblue);
   text-align: center;
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 140%; /* 19.6px */

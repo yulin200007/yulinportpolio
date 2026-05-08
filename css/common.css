@@ -13,10 +13,26 @@ common
   --primary-background: #fff7e7;
   --primary-darkbackground: #feefd0;
   --primary-blue: #c5e8ff;
+
   --SPcontentPadding: 10%;
   --PCcontentPadding: 10%;
+
+
   --jpfont:"M PLUS 1";
   --enfont:"Tilt Warp";
+  --txt_largeltitle:9.6rem;
+  --txt_smalltitle:2.4rem;
+  --txt_middle:1.6rem;
+  --txt_small:1.4rem;
+  --txt_linehight:180%;
+
+  --space-unit: 8px;
+  --space-xs: calc(var(--space-unit) * 1); /* 8px */
+  --space-s: calc(var(--space-unit) * 2); /* 16px */
+  --space-m: calc(var(--space-unit) * 3); /* 24px */
+  --space-l: calc(var(--space-unit) * 5); /* 40px */
+  --space-xl: calc(var(--space-unit) * 8); /* 64px */
+  --space-xxl: calc(var(--space-unit) * 12); /* 96px */
 }
 
 #cursor {

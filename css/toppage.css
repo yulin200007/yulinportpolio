@@ -38,23 +38,23 @@ main
 
 .top__content--top {
   color: var(--primary-orange);
-  font-family: "Tilt Warp";
-  font-size: 1.4rem;
-  margin-bottom: 12px;
+  font-family:var(--enfont);
+  font-size: var(--txt_middle);
+  margin-bottom: 8px;
 }
 
 .top__content--center {
   color: var(--primary-darkblue);
-  font-family: "Tilt Warp";
+  font-family: var(--enfont);
   font-size: 3.6rem;
-  letter-spacing: 6.4px;
+  letter-spacing: 6px;
 }
 
 .top__content--buttom {
   color: var(--primary-black);
-  font-family: "Noto Sans JP";
-  font-size: 1.4rem;
-  line-height: 150%;
+  font-family:var(--jpfont);
+  font-size: var(--txt_small);
+  line-height:var(--txt_linehight);
   margin-top: 24px;
 }
 
@@ -173,8 +173,13 @@ main
     font-size: 4.8rem;
   }
 
+  .top__content--top {
+    font-size: var(--txt_smalltitle);
+    margin-bottom: 8px;
+  }
+
   .top__content--buttom {
-    font-size: 1.8rem;
+    font-size: var(--txt_middle);
     margin-top: 40px;
   }
 
@@ -211,10 +216,7 @@ main
     width: 100%;
   }
 
-  .top__content--top {
-    font-size: 2rem;
-    margin-bottom: 8px;
-  }
+  
 
   .top__content--center {
     font-size: 6.4rem;
@@ -255,28 +257,28 @@ main
 .about__info--name {
   color: var(--primary-darkblue);
   text-align: center;
-  font-family: "Noto Sans JP";
-  font-size: 2.8rem;
+  font-family: var(--jpfont);
+  font-size: var(--txt_smalltitle);
   font-weight: 700;
 }
 
 .about__info--nameEN {
   color: var(--primary-darkblue);
   text-align: center;
-  font-family: "Tilt Warp";
-  font-size: 2.8rem;
+  font-family: var(--enfont);
+  font-size: var(--txt_smalltitle);
 }
 
 .about__info--txt {
-  font-family: "Noto Sans JP";
-  font-size: 1.4rem;
+  font-family: var(--jpfont);
+  font-size:var(--txt_middle);
   margin-top: 20px;
-  line-height: 180%;
+  line-height:var(--txt_linehight);
 }
 
 .about__info--skill {
   display: flex;
-  margin-top: 22px;
+  margin-top: 40px;
 }
 
 .info--skill-item {
@@ -286,10 +288,10 @@ main
 .skill-itemtitle {
   color: var(--primary-darkblue);
   text-align: center;
-  font-family: "Noto Sans JP";
-  font-size: 1.4rem;
+  font-family: var(--jpfont);
+  font-size: var(--txt_middle);
   font-weight: 700;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 
 .skill-batsu {
@@ -300,7 +302,7 @@ main
 .about__more {
   display: flex;
   justify-content: center;
-  margin-top: 32px;
+  margin-top: 40px;
   align-items: center;
 }
 
@@ -319,7 +321,7 @@ main
 
 @media screen and (min-width: 768px) {
   .about {
-    padding: 40px var(--SPcontentPadding) 58px;
+    padding: 0px var(--SPcontentPadding) 58px;
   }
 
   .about__img {
@@ -343,7 +345,6 @@ main
   }
 
   .about__info--txt {
-    font-size: 1.6rem;
     margin-top: 8px;
   }
 
@@ -359,13 +360,8 @@ main
     width: 50%;
   }
 
-  .skill-itemtitle {
-    font-size: 1.6rem;
-  }
-
   .about__more {
     justify-content: end;
-    margin-top: 28px;
   }
 
   .about__buttom {
@@ -381,7 +377,7 @@ main
 
 @media screen and (min-width: 1024px) {
   .about {
-    padding: 80px var(--PCcontentPadding) 32px;
+    padding: 0px var(--PCcontentPadding) 80px;
   }
 
   .about__setction {
@@ -410,10 +406,6 @@ main
 
   .skill-itemtitle {
     font-size: 2rem;
-  }
-
-  .about__more {
-    margin-top: 32px;
   }
 }
 
@@ -623,7 +615,7 @@ main
 
 .Works__categories {
   color: var(--primary-orange);
-  font-family: "Tilt Warp";
+  font-family: var(--enfont);
   font-size: 1.6rem;
   text-align: center;
   background-image: url(../images/down.svg);
@@ -639,8 +631,10 @@ main
 }
 
 .Works__card {
-  margin-bottom: 28px;
+  margin-bottom:56px;
   cursor: pointer;
+  padding: 16px;
+  border-radius: 10px;
 }
 
 .Works__card.is-hidden {
@@ -654,7 +648,7 @@ main
 }
 
 .card--info-title {
-  font-family: "Noto Sans JP";
+  font-family:var(--jpfont);
   font-size: 2rem;
   font-weight: 700;
 }
@@ -663,8 +657,8 @@ main
   display: inline-block;
   color: var(--primary-white);
   /* SubTitle 12px 140 */
-  font-family: "Noto Sans JP";
-  font-size: 1.2rem;
+  font-family:var(--jpfont);
+  font-size: var(--txt_small);
   font-weight: 700;
   padding: 8px 10px;
   border-radius: 20px;
@@ -672,27 +666,26 @@ main
   margin-bottom: 12px;
 }
 
-.card--info-center {
-  font-family: "Noto Sans JP";
-  font-size: 1.4rem;
-  margin-top: 12px;
-}
-
 .card--info-buttom {
   color: var(--primary-orange);
-  font-family: "Noto Sans JP";
-  font-size: 1.2rem;
+  font-family:var(--jpfont);
+  font-size:var(--txt_small);
   border-top: 1px solid var(--primary-orange);
   margin-top: 8px;
+  font-weight: 700;
 }
 
 .Works__card--pic {
   position: relative;
-  &:hover {
-    .card--pic-mask {
-      opacity: 1;
-    }
-  }
+ 
+}
+
+.Works__card:hover .card--pic-mask{
+  opacity: 1;
+}
+
+.Works__card:hover{
+  box-shadow:1px 1px 10px var(--primary-orange);
 }
 
 
@@ -715,7 +708,7 @@ main
   transition: 0.5s;
 }
 
-.card--pic-mask:hover .card--pic-maskseemore-center {
+.Works__card:hover .card--pic-maskseemore-center {
   animation: maskseemore 0.3s linear 1 forwards;
 }
 
@@ -730,9 +723,9 @@ main
 }
 
 .card--pic-maskseemore-txt {
-  font-size: 24px;
+  font-size:var(--txt_smalltitle);
   color: var(--primary-white);
-  font-family: "Tilt Warp";
+  font-family:var(--enfont);
   text-align: center;
 }
 
@@ -776,7 +769,7 @@ main
   }
 
   .Works__maincontain--left-title p {
-    font-size: 2.2rem;
+    font-size: var(--txt_smalltitle);
   }
 
   .Works__maincontain--left-title div p {
@@ -848,7 +841,7 @@ main
     padding: 8px 12px;
     justify-content: center;
     border-radius: 20px;
-    font-size: 1.8rem;
+    font-size:var(--txt_middle);
   }
 
   .Works__categories--item:hover {
@@ -861,58 +854,44 @@ main
     color: var(--primary-background);
   }
 
-  .card--info-top {
-    margin-top: 12px;
-  }
 
   .card--info-title {
-    font-size: 2.4rem;
+    font-size: var(--txt_smalltitle);
   }
 
   .card--info-gust {
-    font-size: 1.4rem;
+    font-size: var(--txt_small);
     padding: 10px;
     display: inline-flex;
     margin-bottom: 8px;
   }
 
   .card--info-center {
-    font-size: 1.6rem;
+    font-size:var(--txt_middle);
     margin-top: 20px;
     height: 60px;
     letter-spacing: 10%;
   }
 
   .card--info-buttom {
-    font-size: 1.4rem;
-    font-weight: 700;
-    margin-top: 20px;
+    font-size:var(--txt_small);
+    margin-top: 16px;
     height: 24px;
     line-height: 24px;
   }
 
-  .Works__card--img {
-    border-radius: 10px;
-    height: 262px;
-    width: 100%;
-    max-width: 100%;
-    object-fit: cover;
-  }
-
   .Works__card {
-    width: 48%;
     margin-top: 40px;
+    margin-bottom: 0px;
   }
 
   .Works__cardslist {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+
   }
 
-  .card--pic-mask {
-    border-radius: 10px;
-  }
 }
 
 /* works TA 992px */
@@ -940,29 +919,14 @@ main
     font-size: 2rem;
   }
 
+  .Works__cardslist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .card--info-top {
     margin-top: 16px;
   }
 
-  .card--info-center {
-    margin-top: 12px;
-  }
-
-  .Works__card--img {
-    height: 240px;
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .Works__card {
-    width: 30%;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .Works__card--img {
-    height: 300px;
-  }
 }
 /* works SP 1024px */
 
@@ -977,7 +941,7 @@ main
 .gallerytitle__top {
   color: var(--primary-darkblue);
   text-align: center;
-  font-family: "Tilt Warp";
+  font-family:var(--enfont);
   font-size: 6rem;
   margin-bottom: 12px;
 }
@@ -985,8 +949,8 @@ main
 .gallerytitle__bottom--txt {
   color: var(--primary-white);
   text-align: center;
-  font-family: "Noto Sans JP";
-  font-size: 1.6rem;
+  font-family:var(--jpfont);
+  font-size: var(--txt_middle);
   font-weight: 500;
   width: 295px;
   height: 56px;
@@ -1054,7 +1018,7 @@ main
   }
 
   .gallerytitle__bottom--txt {
-    font-size: 2.4rem;
+    font-size:var(--txt_smalltitle);
     width: 379px;
     height: 76px;
   }

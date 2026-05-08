@@ -38,10 +38,10 @@
 
 @keyframes zoom-in {
   0% {
-    background-size: 100%;
+    background-size: 110%;
   }
   100% {
-    background-size: 120%;
+    background-size: 130%;
   }
 }
 
@@ -137,6 +137,18 @@
   background-image: url(../images/イタリアン/イタリアンcard.jpg);
 }
 
+.worksimg.itarian-pic2 {
+  background-image: url(../images/イタリアン/イタリアン_01.jpg);
+}
+
+.worksimg.hachimitsu-pic1 {
+  background-image: url(../images/hachimitsu/hachimitsu_01.jpg);
+}
+
+.worksimg.hachimitsu-pic2 {
+  background-image: url(../images/hachimitsu/hachimitsucard.jpg);
+}
+
 .swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main {
   background: var(--primary-orange);
 }
@@ -149,7 +161,7 @@
 }
 
 .Worksinfo__content--url::after {
-  content: '';
+  content: "";
   display: block;
   background-image: url(../images/link-out.svg);
   width: 18px;
@@ -174,7 +186,7 @@
 }
 
 .Worksinfo__content--title {
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 2rem;
   font-weight: 700;
   margin-top: 20px;
@@ -182,7 +194,7 @@
 
 .Worksinfo__content--subtitle {
   color: var(--primary-darkblue);
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 1.8rem;
   font-weight: 700;
   margin-top: 28px;
@@ -190,7 +202,7 @@
 
 .Worksinfo__content--txt {
   margin-top: 4px;
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 1.4rem;
 }
 
@@ -335,7 +347,7 @@
 
 .Worksdirections__item--title {
   color: var(--primary-orange);
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 120%; /* 21.6px */
@@ -344,7 +356,7 @@
 
 .Worksdirections__item--txt {
   font-size: 1.4rem;
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   line-height: 200%; /* 22.4px */
   letter-spacing: 10%;
 }
@@ -363,7 +375,7 @@
 .skillset-item-txt {
   color: var(--primary-darkblue);
   text-align: center;
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 140%; /* 19.6px */
@@ -482,7 +494,7 @@
 
 .Worksdesign__webdirections--title {
   color: var(--primary-orange);
-  font-family:var(--enfont);
+  font-family: var(--enfont);
   font-size: 3.2rem;
   text-align: center;
 }
@@ -591,7 +603,7 @@
 }
 
 .colorset-item-txt {
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 1.4rem;
 }
 
@@ -644,7 +656,7 @@
 
 .Worksdesign__logodirections--info-txt {
   margin-top: 20px;
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 1.4rem;
   line-height: 200%;
   letter-spacing: 10%;
@@ -690,7 +702,7 @@
 }
 
 .bannerdirections--list-txt {
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 1.4rem;
   margin-top: 32px;
   line-height: 200%;
@@ -1001,7 +1013,10 @@
   margin-bottom: 28px;
   cursor: pointer;
   margin: auto 10px;
-  width: 233px;
+}
+
+.otherworks__card:hover .otherworks__card--pic-mask {
+  display: block;
 }
 
 .otherworks__card--info-top {
@@ -1010,7 +1025,7 @@
 }
 
 .otherworks__card--info-title {
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 1.6rem;
   font-weight: 700;
 }
@@ -1020,7 +1035,7 @@
   color: var(--primary-white);
   text-align: center;
   /* SubTitle 12px 140 */
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 0.8rem;
   font-weight: 700;
   padding: 8px 10px;
@@ -1037,7 +1052,7 @@
 
 .otherworks__card--info-buttom {
   color: var(--primary-orange);
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 1.4rem;
   border-top: 1px solid var(--primary-orange);
   margin-top: 8px;
@@ -1046,12 +1061,6 @@
 
 .otherworks__card--pic {
   position: relative;
-
-  &:hover {
-    .otherworks__card--pic-mask {
-      display: block;
-    }
-  }
 }
 
 .otherworks__card--img {
@@ -1074,7 +1083,7 @@
 .otherworks__card--pic-maskseemore-txt {
   font-size: 24px;
   color: var(--primary-white);
-  font-family:var(--enfont);
+  font-family: var(--enfont);
   text-align: center;
 }
 
@@ -1137,7 +1146,6 @@
 
   .otherworks__card {
     margin: auto 20px;
-    width: 290px;
   }
 
   .otherworks__card--info-top {
