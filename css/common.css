@@ -270,6 +270,8 @@ header
   cursor: pointer;
 }
 
+/* jp page language*/
+
 .nav__language.ja {
   background-image: url(../images/navlangon.svg);
   color: var(--primary-white);
@@ -289,6 +291,32 @@ header
   background-image: url(../images/navlangon.svg);
   color: var(--primary-white);
 }
+
+
+
+/* zh page language*/
+
+.nav__language.ja.inzh {
+  background-image: url(../images/navlangoff.svg);
+  color: var(--primary-orange);
+}
+
+.nav__language.ja.inzh:hover {
+  background-image: url(../images/navlangon.svg);
+  color: var(--primary-white);
+}
+
+.nav__language.zh.inzh {
+  background-image: url(../images/navlangon.svg);
+  color: var(--primary-white);
+}
+
+.nav__language.zh.inzh:hover {
+  background-image: url(../images/navlangoff.svg);
+  color: var(--primary-orange);
+}
+
+
 
 .navlist__btn {
   width: 60px;

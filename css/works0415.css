@@ -111,18 +111,22 @@
 }
 
 .worksimg.hcas-pic3 {
-  background-image: url(../images/hcas/hcas_02.jpg);
+  background-image: url(../images/hcas/TAHCASset-min-1.jpg);
 }
 
 .worksimg.ksing-pic1 {
   background-image: url(../images/Ksinging/cardksong.jpg);
-}
-.worksimg.ksing-pic2 {
-  background-image: url(../images/Ksinging/live.jpg);
+
+  animation: none;
 }
 
 .worksimg.asid-pic1 {
+  background-size: cover;
   background-image: url(../images/AcidMucus/cardacidmucus.jpg);
+}
+
+.worksimg.asid-pic2 {
+  background-image: url(../images/AcidMucus/acidmucustop02.jpg);
 }
 
 .worksimg.raven-pic1 {
@@ -139,6 +143,13 @@
 
 .worksimg.itarian-pic2 {
   background-image: url(../images/イタリアン/イタリアン_01.jpg);
+}
+
+.worksimg.post-pic1 {
+  background-image: url(../images/post/post01.jpg);
+}
+.worksimg.post-pic2 {
+  background-image: url(../images/post/post03.jpg);
 }
 
 .worksimg.hachimitsu-pic1 {
@@ -369,7 +380,9 @@
 
 .skillset-item-img {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 8px;
+  width: 100px;
+
 }
 
 .skillset-item-txt {
@@ -400,6 +413,8 @@
   .Worksdirections {
     padding: 140px 0 70px;
   }
+
+
 
   .Worksdirections__item {
     display: flex;
@@ -677,10 +692,6 @@
   border-radius: 5px;
 }
 
-.skillset-item-img {
-  margin-bottom: 8px;
-}
-
 .Worksdesign__bannerdirections {
   margin-top: 140px;
   margin-bottom: 80px;
@@ -757,6 +768,19 @@
   .Worksdesign__webdirections {
     border-radius: 100px;
     padding: 100px var(--SPcontentPadding);
+  }
+
+  .flyer__row{
+    display: flex;
+    gap: 32px;
+  }
+
+  .flyer__col.col01{
+   margin-top: 120px;
+  }
+
+  .flyer__col.col02{
+   margin-top: -120px;
   }
 
   .SPimgbox--PC.Worksdesign__webdirections--PCimgset {
@@ -1187,7 +1211,7 @@
     max-width: 1100px;
     width: 80%;
     justify-content: space-between;
-    top: 390px;
+    top: 260px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -1202,6 +1226,12 @@
     margin: 0 0 80px 40px;
     padding: 0;
   }
+
+   .otherworks__change.pcchang {
+    top: 390px;
+  }
+
+
   .otherworks__change--img {
     bottom: 260px;
     width: 74px;

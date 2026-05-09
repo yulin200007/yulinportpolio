@@ -436,11 +436,10 @@ main
   border-radius: 15px;
   aspect-ratio: 16 / 9;
   transition: 0.5s;
-  filter: grayscale(20%);
 }
 
 .Works__maincontain--img.leftcontent{
-  background-image: url(../images/portflio/home_web.jpg);
+  background-image: url(../images/portflio/合圖-02.jpg);
 }
 
 .Works__maincontain--img.rightcontent01{
@@ -650,7 +649,7 @@ main
 .card--info-title {
   font-family:var(--jpfont);
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .card--info-gust {
@@ -765,6 +764,7 @@ main
   }
 
   .Works__maincontain--img.leftcontent {
+    background-image: url(../images/portflio/合圖-01-1.jpg);
     height: 615px;
   }
 
@@ -854,14 +854,9 @@ main
     color: var(--primary-background);
   }
 
-
-  .card--info-title {
-    font-size: var(--txt_smalltitle);
-  }
-
   .card--info-gust {
-    font-size: var(--txt_small);
-    padding: 10px;
+    font-size: 1.2rem;
+    padding:4px 8px;
     display: inline-flex;
     margin-bottom: 8px;
   }
@@ -875,7 +870,6 @@ main
 
   .card--info-buttom {
     font-size:var(--txt_small);
-    margin-top: 16px;
     height: 24px;
     line-height: 24px;
   }
