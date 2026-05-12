@@ -72,7 +72,7 @@
 }
 
 .worksimg.panda-pic2 {
-  background-image: url(../images/pandaruman/pandaruman_02i.jpg);
+  background-image: url(../images/pandaruman/cardpandaruman02.jpg);
 }
 
 .worksimg.panda-pic3 {
@@ -93,6 +93,10 @@
 
 .worksimg.sugutabe-pic2 {
   background-image: url(../images/sugutabe/cardsugutabe_01.jpg);
+}
+
+.worksimg.sugutabe-pic3 {
+  background-image: url(../images/sugutabe/cardsugutabe03.jpg);
 }
 
 .worksimg.furano-pic1 {
@@ -142,7 +146,11 @@
 }
 
 .worksimg.itarian-pic2 {
-  background-image: url(../images/イタリアン/イタリアン_01.jpg);
+  background-image: url(../images/イタリアン/イタリアンcard01.jpg);
+}
+
+.worksimg.itarian-pic3 {
+  background-image: url(../images/イタリアン/イタリアンcard02.jpg);
 }
 
 .worksimg.post-pic1 {
@@ -382,7 +390,6 @@
   display: block;
   margin: 0 auto 8px;
   width: 100px;
-
 }
 
 .skillset-item-txt {
@@ -413,8 +420,6 @@
   .Worksdirections {
     padding: 140px 0 70px;
   }
-
-
 
   .Worksdirections__item {
     display: flex;
@@ -770,17 +775,17 @@
     padding: 100px var(--SPcontentPadding);
   }
 
-  .flyer__row{
+  .flyer__row {
     display: flex;
     gap: 32px;
   }
 
-  .flyer__col.col01{
-   margin-top: 120px;
+  .flyer__col.col01 {
+    margin-top: 120px;
   }
 
-  .flyer__col.col02{
-   margin-top: -120px;
+  .flyer__col.col02 {
+    margin-top: -120px;
   }
 
   .SPimgbox--PC.Worksdesign__webdirections--PCimgset {
@@ -1060,7 +1065,7 @@
   text-align: center;
   /* SubTitle 12px 140 */
   font-family: var(--jpfont);
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   font-weight: 700;
   padding: 8px 10px;
   border-radius: 20px;
@@ -1176,11 +1181,6 @@
     gap: 4px;
   }
 
-  .otherworks__card--info-gust {
-    padding: 4px;
-    font-size: 1rem;
-  }
-
   .otherworks__card--info-buttom {
     margin-top: 16px;
   }
@@ -1227,10 +1227,9 @@
     padding: 0;
   }
 
-   .otherworks__change.pcchang {
+  .otherworks__change.pcchang {
     top: 390px;
   }
-
 
   .otherworks__change--img {
     bottom: 260px;

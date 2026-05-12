@@ -38,7 +38,7 @@ main
 
 .top__content--top {
   color: var(--primary-orange);
-  font-family:var(--enfont);
+  font-family: var(--enfont);
   font-size: var(--txt_middle);
   margin-bottom: 8px;
 }
@@ -52,9 +52,9 @@ main
 
 .top__content--buttom {
   color: var(--primary-black);
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: var(--txt_small);
-  line-height:var(--txt_linehight);
+  line-height: var(--txt_linehight);
   margin-top: 24px;
 }
 
@@ -216,8 +216,6 @@ main
     width: 100%;
   }
 
-  
-
   .top__content--center {
     font-size: 6.4rem;
   }
@@ -271,9 +269,9 @@ main
 
 .about__info--txt {
   font-family: var(--jpfont);
-  font-size:var(--txt_middle);
+  font-size: var(--txt_middle);
   margin-top: 20px;
-  line-height:var(--txt_linehight);
+  line-height: var(--txt_linehight);
 }
 
 .about__info--skill {
@@ -438,15 +436,15 @@ main
   transition: 0.5s;
 }
 
-.Works__maincontain--img.leftcontent{
+.Works__maincontain--img.leftcontent {
   background-image: url(../images/portflio/合圖-02.jpg);
 }
 
-.Works__maincontain--img.rightcontent01{
+.Works__maincontain--img.rightcontent01 {
   background-image: url(../images/flyer/home_flyer.jpg);
 }
 
-.Works__maincontain--img.rightcontent02{
+.Works__maincontain--img.rightcontent02 {
   background-image: url(../images/banner/home_banner.jpg);
 }
 
@@ -630,7 +628,7 @@ main
 }
 
 .Works__card {
-  margin-bottom:56px;
+  margin-bottom: 56px;
   cursor: pointer;
   padding: 16px;
   border-radius: 10px;
@@ -647,7 +645,7 @@ main
 }
 
 .card--info-title {
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: 2rem;
   font-weight: 500;
 }
@@ -656,7 +654,7 @@ main
   display: inline-block;
   color: var(--primary-white);
   /* SubTitle 12px 140 */
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: var(--txt_small);
   font-weight: 700;
   padding: 8px 10px;
@@ -667,8 +665,8 @@ main
 
 .card--info-buttom {
   color: var(--primary-orange);
-  font-family:var(--jpfont);
-  font-size:var(--txt_small);
+  font-family: var(--jpfont);
+  font-size: var(--txt_small);
   border-top: 1px solid var(--primary-orange);
   margin-top: 8px;
   font-weight: 700;
@@ -676,18 +674,15 @@ main
 
 .Works__card--pic {
   position: relative;
- 
 }
 
-.Works__card:hover .card--pic-mask{
+.Works__card:hover .card--pic-mask {
   opacity: 1;
 }
 
-.Works__card:hover{
-  box-shadow:1px 1px 10px var(--primary-orange);
+.Works__card:hover {
+  box-shadow: 1px 1px 10px var(--primary-orange);
 }
-
-
 
 .Works__card--img {
   border-radius: 5px;
@@ -722,9 +717,9 @@ main
 }
 
 .card--pic-maskseemore-txt {
-  font-size:var(--txt_smalltitle);
+  font-size: var(--txt_smalltitle);
   color: var(--primary-white);
-  font-family:var(--enfont);
+  font-family: var(--enfont);
   text-align: center;
 }
 
@@ -841,7 +836,7 @@ main
     padding: 8px 12px;
     justify-content: center;
     border-radius: 20px;
-    font-size:var(--txt_middle);
+    font-size: var(--txt_middle);
   }
 
   .Works__categories--item:hover {
@@ -855,21 +850,21 @@ main
   }
 
   .card--info-gust {
-    font-size: 1.2rem;
-    padding:4px 8px;
+    font-size: var(--txt_small);
+    padding: 4px 8px;
     display: inline-flex;
     margin-bottom: 8px;
   }
 
   .card--info-center {
-    font-size:var(--txt_middle);
+    font-size: var(--txt_middle);
     margin-top: 20px;
     height: 60px;
     letter-spacing: 10%;
   }
 
   .card--info-buttom {
-    font-size:var(--txt_small);
+    font-size: var(--txt_small);
     height: 24px;
     line-height: 24px;
   }
@@ -883,9 +878,7 @@ main
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
-
   }
-
 }
 
 /* works TA 992px */
@@ -920,7 +913,6 @@ main
   .card--info-top {
     margin-top: 16px;
   }
-
 }
 /* works SP 1024px */
 
@@ -935,7 +927,7 @@ main
 .gallerytitle__top {
   color: var(--primary-darkblue);
   text-align: center;
-  font-family:var(--enfont);
+  font-family: var(--enfont);
   font-size: 6rem;
   margin-bottom: 12px;
 }
@@ -943,7 +935,7 @@ main
 .gallerytitle__bottom--txt {
   color: var(--primary-white);
   text-align: center;
-  font-family:var(--jpfont);
+  font-family: var(--jpfont);
   font-size: var(--txt_middle);
   font-weight: 500;
   width: 295px;
@@ -1012,7 +1004,7 @@ main
   }
 
   .gallerytitle__bottom--txt {
-    font-size:var(--txt_smalltitle);
+    font-size: var(--txt_smalltitle);
     width: 379px;
     height: 76px;
   }
